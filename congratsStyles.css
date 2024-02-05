@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/671/770/original/seamless-patterns-with-red-and-pink-hearts-seamless-background-with-hearts-valentine-s-day-gift-wrap-printables-cloth-cute-background-for-a-card-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #000000; /* Pick a color that suits your style */
+}
+
+/* You can adjust h1 styles as per your preference */

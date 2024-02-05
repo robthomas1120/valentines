@@ -1,0 +1,51 @@
+/* Centering everything */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/671/770/original/seamless-patterns-with-red-and-pink-hearts-seamless-background-with-hearts-valentine-s-day-gift-wrap-printables-cloth-cute-background-for-a-card-vector.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+
+/* Styles for buttons */
+#button1 {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green; /* Changed to green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#button2 {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red; /* Changed to red */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #0056b3;
+    transform: translateY(1px);
+}
