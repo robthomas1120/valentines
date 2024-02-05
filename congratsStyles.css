@@ -17,7 +17,12 @@ body {
 
 h1 {
     font-size: 40px;
-    color: #000000; 
+    color: #000000;
 }
 
-
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
